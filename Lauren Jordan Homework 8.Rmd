@@ -1,0 +1,46 @@
+---
+title: "Lauren Jordan Homework 8"
+author: "Lauren Jordan"
+date: "`r Sys.Date()`"
+output: html_document
+---
+## 16 Things Learned in DSCI 412: Predictive Modeling
+### Week 1
+1. Root Mean Squared Error (RMSE) is sort of like standard deviation, it tells by how much your prediction is typically off. As a result, lower RMSE is better than a higher RMSE.
+
+2. It's important to make your model as simple as possible, as those models do a better job of generalizing and don't over fit as much as more complex models.
+
+### Week 2
+1. Data that is skewed in one direction can be fixed many times with a log transformation.
+
+2. Imputation is the process of replacing missing values with a suitable value (usually the average), which is best when missing dating seems random and not focused in one particular place.
+
+### Week 3
+1. Pr(>|t|) is how likely a ratio would be due to mere chance, and if the amount is below 5%, it is considered statistically significant.
+
+2. When plotting residual errors, if the residuals are spread around the x-axis, the linear regression model is considered valid.
+
+### Week 4
+1. Logistic regression is best suited for when the response variable is categorical, while linear regressionis best for when the response is continuous.
+
+2. Accuracy can be measured using precision (focus on how many were incorrect) and recall (focus on how many positive instances correctly identified)
+
+### Week 5
+1. Poisson focuses on the probability of certain number of events occuring in in a specific amount of time (count data model)
+
+2. Gamma models focus on probability for continuous non-negative responses, not discrete, like in the case of Poisson.
+
+### Week 6
+1. Tree-based models are easier to understand and explain to those not familiar with many methods used within the Data Science field.
+
+2. Random forests consist of many trees, and have better prediction power.
+
+### Week 7
+1. Supervised learning contains a response variable to compare for predictions, whereas unsupervised models consist only of features, with no true observation.
+
+2. K-Means clustering takes data and finds similarities and patterns to break into groups--is best used for categorization.
+
+### Week 8
+1. Knowing how to create a model is very different from knowing how to explain it! The best model is useless if no one can use it.
+
+2. Slides can be done directly within R using ioslides-- a helpful tool to avoid having to copy/paste into other programs like PowerPoint or Google Slides.
